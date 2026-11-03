@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidade · Gmail Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">Início</a><a href="privacidade.html">Política de privacidade</a></nav>
+
+  <h1>Política de privacidade</h1>
+  <p class="lede">Última atualização: 3 de novembro de 2026</p>
+
+  <p>O Gmail Agent é uma aplicação de uso pessoal que acede apenas à conta Gmail do seu autor. Esta política explica que dados são usados e como.</p>
+
+  <h2>Dados acedidos</h2>
+  <p>Com autorização explícita do dono da conta, através da permissão <code>gmail.modify</code> da Google, a aplicação lê os emails recebidos (remetente, assunto e conteúdo), aplica etiquetas, move mensagens para o lixo ou para o spam e cria rascunhos.</p>
+
+  <h2>Como os dados são usados</h2>
+  <ul>
+    <li>O conteúdo de cada email novo é enviado à API da Anthropic (Claude) para ser classificado e, quando faz sentido, para redigir um rascunho de resposta. Os dados enviados pela API não são usados para treinar modelos.</li>
+    <li>Para emails importantes, o remetente, o assunto e um resumo curto são enviados como notificação privada ao dono da conta através do Telegram.</li>
+    <li>Num servidor privado na União Europeia fica um registo técnico com os identificadores das mensagens e as ações aplicadas. O conteúdo dos emails não é guardado fora do Gmail.</li>
+  </ul>
+
+  <h2>Partilha</h2>
+  <p>Os dados não são vendidos, nem partilhados para publicidade, nem usados para qualquer fim além de organizar a caixa de correio do próprio dono.</p>
+  <p>The use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Revogar o acesso</h2>
+  <p>O acesso pode ser revogado a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. A partir daí, a aplicação deixa de conseguir aceder à conta.</p>
+
+  <h2>Contacto</h2>
+  <p>Questões sobre esta política podem ser enviadas através do repositório desta página no GitHub.</p>
+
+  <footer><a href="./">Voltar ao início</a></footer>
+</main>
+</body>
+</html>
